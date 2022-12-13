@@ -1,0 +1,20 @@
+{
+  "name": "Coding Challenge 001 - Flip the word",
+  "version": "1.0.0",
+  "description": "Coding challenge: create a function that returns a string from right to left.",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "coding challenge",
+    "word flipping",
+    "reverse",
+    "algorithm"
+  ],
+  "author": "Pvag",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
