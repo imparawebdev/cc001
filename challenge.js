@@ -6,9 +6,12 @@
 // EXAMPLE
 // backwards('Dante') // --> should return etnaD
 
-const backwards = function(original) {
-  // your code here...
-
+const backwards = (string) => {
+  let reverseString = ''
+  for (let i = string.length -1; i >= 0; i--) {
+    reverseString += string[i]
+  }
+  return reverseString
 }
 
 
